@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calc</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            Calculator 1.0
+        </div>
+        <div class="btn-group btn-lg grid-display">            
+            <button class="btn2 btn-dark" id="display"></button>     
+            <button id="sum" class="btn">=</button>  
+            <button class="btn2 btn-dark" id="result"></button>
+        </div>
+        <br>
+        <div id="numbers" class="grid-3">
+            <button class='btn'  value=1>1</button>
+            <button class='btn'  value=2>2</button>
+            <button class='btn'  value=3>3</button>
+            <button class='btn'  value=4>4</button>
+            <button class='btn'  value=5>5</button>
+            <button class='btn'  value=6>6</button>
+            <button class='btn'  value=7>7</button>
+            <button class='btn'  value=8>8</button>
+            <button class='btn'  value=9>9</button>
+            <button class='btn1' value=+>+</button>
+            <button class='btn'  value=0>0</button>            
+            <button class='btn1' value=*>*</button>
+            <button class='btn1' value=->-</button>
+            <button class='btn1' value='/'>:</button>
+            <button id="c" class="btn" 
+            style="background-color: rgb(231, 81, 81);">C</button>
+        </div>
+        <br>
+ 
+        <!-- <div id="memory" class="btn-group btn-lg grid-display">
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+        </div>
+    </div> -->
+    
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
